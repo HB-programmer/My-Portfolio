@@ -52,7 +52,7 @@ export function RecruiterBrief({ ignited, onSwitchMode }: RecruiterBriefProps) {
             ))}
           </dl>
           <div className="license-actions">
-            <a className="primary-action" href={links.resume} download>
+            <a className="primary-action" href={links.resume} download={links.resumeFileName}>
               Download Resume
             </a>
             <button className="secondary-action" type="button" onClick={copyEmail}>

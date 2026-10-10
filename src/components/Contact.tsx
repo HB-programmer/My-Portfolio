@@ -10,7 +10,7 @@ export function Contact() {
         <h2>Start A Conversation</h2>
         <p>Have a backend problem, AI workflow, or system design challenge that needs horsepower?</p>
         <div className="contact-actions">
-          <a className="contact-primary" href={links.resume} download>
+          <a className="contact-primary" href={links.resume} download={links.resumeFileName}>
             Download Resume
           </a>
           <a href={links.email}>Email</a>

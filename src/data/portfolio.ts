@@ -10,6 +10,8 @@ import type {
   Telemetry,
   VisitorMode,
 } from "../types/portfolio";
+// Single source of truth: replace this PDF (same filename) to update every download link on the site.
+import resumePdf from "./Harshit-Bhardwaj-Resume.pdf";
 
 export const navItems: Record<VisitorMode, NavItem[]> = {
   explorer: [
@@ -52,7 +54,8 @@ export const links = {
   linkedin: "https://www.linkedin.com/in/harshit-bhardwaj-720218210/",
   github: "https://github.com/HB-programmer",
   medium: "https://medium.com/@hbhardwaj9528",
-  resume: `${import.meta.env.BASE_URL}Harshit-Bhardwaj-Resume.pdf`,
+  resume: resumePdf,
+  resumeFileName: "Harshit-Bhardwaj-Resume.pdf",
 };
 
 export const riderSpecs: Part[] = [
