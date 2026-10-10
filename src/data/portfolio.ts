@@ -52,7 +52,7 @@ export const links = {
   linkedin: "https://www.linkedin.com/in/harshit-bhardwaj-720218210/",
   github: "https://github.com/HB-programmer",
   medium: "https://medium.com/@hbhardwaj9528",
-  resume: "/Harshit-Bhardwaj-Resume.pdf",
+  resume: `${import.meta.env.BASE_URL}Harshit-Bhardwaj-Resume.pdf`,
 };
 
 export const riderSpecs: Part[] = [
